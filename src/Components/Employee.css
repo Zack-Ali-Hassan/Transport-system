@@ -1,0 +1,19 @@
+.btn1 {
+    background: #04b4a2;
+    border-color: #04b4a2;
+    padding: 13px 35px;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 600;
+}
+.btn1:focus,
+.btn1:hover {
+    background: #f64b4b;
+    border-color: #f64b4b;
+    color: #fff;
+}
+
+.btn.btn-primary.btn1 .fas {
+    margin: 0 0 0 6px;
+    font-size: 15px;
+}
