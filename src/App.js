@@ -51,7 +51,7 @@ function App() {
                 </AppLayout>
                 <Routes>
                   <Route
-                    path="/"
+                    path="/Transport-system/#/"
                     element={
                       <div className="bg-secondary h-100 w-100 d-flex marginLogin">
                         <AppLogin />
@@ -59,15 +59,21 @@ function App() {
                     }
                   ></Route>
                   <Route
-                    path="/forget"
+                    path="/Transport-system/#/forget"
                     element={
                       <div className="bg-secondary h-100 w-100 d-flex marginLogin">
                         <AppForgetPassword />
                       </div>
                     }
                   ></Route>
-                  <Route path="/home" element={<AppHome></AppHome>}></Route>
-                  <Route path="/users" element={<AppUsers></AppUsers>}></Route>
+                  <Route
+                    path="/Transport-system/#/home"
+                    element={<AppHome></AppHome>}
+                  ></Route>
+                  <Route
+                    path="/Transport-system/#/users"
+                    element={<AppUsers></AppUsers>}
+                  ></Route>
                   <Route
                     path="/employe"
                     element={<AppEmployee></AppEmployee>}
