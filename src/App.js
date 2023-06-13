@@ -66,7 +66,7 @@ function App() {
                       </div>
                     }
                   ></Route>
-                  <Route path="/home" element={<AppHome></AppHome>}></Route>
+                  <Route path="#/home" element={<AppHome></AppHome>}></Route>
                   <Route path="/users" element={<AppUsers></AppUsers>}></Route>
                   <Route
                     path="/employe"
