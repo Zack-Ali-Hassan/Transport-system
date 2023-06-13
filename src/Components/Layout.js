@@ -4,7 +4,7 @@ function AppLayout(props) {
   const location = useLocation();
   const [show, setShow] = useState(false);
   useEffect(() => {
-    if (location.pathname != "/" && location.pathname != "/signup") {
+    if (location.pathname != "/" && location.pathname != "/forget") {
       setShow(true);
     } else {
     }

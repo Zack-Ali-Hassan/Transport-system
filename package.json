@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Zack-Ali-Hassan.github.io/Transportation-System",
+  "homepage": "http://Zack-Ali-Hassan.github.io/Transport-system",
   "name": "transportation",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +8,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
         "@types/react": "^18.2.8",
-
     "apexcharts": "^3.40.0",
     "bootstrap": "^5.2.3",
     "firebase": "^9.21.0",

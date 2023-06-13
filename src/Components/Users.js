@@ -23,8 +23,8 @@ function AppUsers() {
   return (
     <section id="user" className="user">
       <div className="row">
-        <div className="col-xl-12">
-          <div className="card mt-3">
+        <div className="col-xl-12 ">
+          <div className="card mt-3 ">
             <div className="card-header  mt-3">
               <h5>User Table</h5>
               <span className="d-block m-t-5">

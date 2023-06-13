@@ -30,7 +30,7 @@ function AppUserTable() {
   }
   return (
     
-    <table className="table mt-2 ms-4" id="userTable">
+    <table className="table mt-2 ms-4 " id="userTable">
                   <thead>
                     <tr>
                       <th>#</th>
@@ -155,11 +155,11 @@ function AppUserTable() {
                     </tr>
                     <tr>
                       <td>6</td>
-                      <td>Ahmed Hassan Mohamed</td>
+                      <td>Alia Adan Abshir</td>
                       <td>User</td>
-                      <td>615345645</td>
-                      <td>ahmed@gmail.com</td>
-                      <td>123654</td>
+                      <td>617872737</td>
+                      <td>alia@gmail.com</td>
+                      <td>123</td>
                       <td>
                         <a className="btn btn-info" type="submit" onClick={HandleShowModal}>
                           <i
@@ -175,6 +175,7 @@ function AppUserTable() {
                         </a>
                       </td>
                     </tr>
+                    
                   </tbody>
                   <Modal show={showModal} onHide={HandleCloseModal}>
                 <Modal.Header closeButton>
