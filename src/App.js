@@ -30,7 +30,7 @@ function App() {
   };
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename="/Transport-system/">
         <div className="dashboard bg-white min-vh-100">
           <Container fluid>
             <Row>
