@@ -30,7 +30,7 @@ function App() {
   };
   return (
     <div className="App">
-      <HashRouter basename="/Transport-system/">
+      <HashRouter>
         <div className="dashboard bg-white min-vh-100">
           <Container fluid>
             <Row>
@@ -66,7 +66,7 @@ function App() {
                       </div>
                     }
                   ></Route>
-                  <Route path="#/home" element={<AppHome></AppHome>}></Route>
+                  <Route path="/home" element={<AppHome></AppHome>}></Route>
                   <Route path="/users" element={<AppUsers></AppUsers>}></Route>
                   <Route
                     path="/employe"
