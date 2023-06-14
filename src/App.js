@@ -30,7 +30,7 @@ function App() {
   };
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter basename="/Transport-system">
         <div className="dashboard bg-white min-vh-100">
           <Container fluid>
             <Row>
@@ -51,7 +51,8 @@ function App() {
                 </AppLayout>
                 <Routes>
                   <Route
-                    path="/"
+                    exact
+                    path="/Transport-system"
                     element={
                       <div className="bg-secondary h-100 w-100 d-flex marginLogin">
                         <AppLogin />
@@ -110,7 +111,7 @@ function App() {
           <Route path="/" element={<AppLogin />}></Route>
           <Route path="/signup" element={<AppSignUp />}></Route>
         </Routes> */}
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }

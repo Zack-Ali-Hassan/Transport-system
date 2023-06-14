@@ -45,7 +45,7 @@ function AppNav({ HandleToggle }) {
               </Navbar.Brand>
               <Navbar.Brand>
                 <Typed
-                  strings={["Transportation Management System"]}
+                  strings={["Al Hilaal Transportation Management System"]}
                   typeSpeed={55}
                   backSpeed={55}
                   pm
